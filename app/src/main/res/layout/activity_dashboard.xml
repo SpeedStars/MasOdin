@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controller.Dashboard">
+
+    <Button
+        android:id="@+id/btn_restadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="32dp"
+        android:gravity="center_vertical"
+        android:text="Tambah Restoran"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_menuadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="32dp"
+        android:gravity="center_vertical"
+        android:text="Tambah Menu"
+        app:layout_constraintTop_toTopOf="@id/btn_restadd" />
+
+    <Button
+        android:id="@+id/bt_addadmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="32dp"
+        android:gravity="center_vertical"
+        android:text="Tambah Manager"
+        app:layout_constraintTop_toTopOf="@id/btn_menuadd"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

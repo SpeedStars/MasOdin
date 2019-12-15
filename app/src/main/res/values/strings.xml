@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MasOdin</string>
+    <string name="tambahdata">Tambah Restoran</string>
+    <string name="lihatdata">Lihat Restoran</string>
+    <string name="namares">Nama Restoran</string>
+    <string name="alamatres">Alamat Restoran</string>
+    <string name="notelpres">Telepon Restoran</string>
+    <string name="emailres">Email Restoran</string>
+    <string name="title_activity_customr__menu_list_">Customr_MenuList_Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string-array name="Kategori">
+        <item>Makanan</item>
+        <item>Minuman</item>
+        <item>Lain-Lain</item>
+    </string-array>
+    <string-array name="Restoran">
+        <item>Resto A</item>
+        <item>Resto B</item>
+        <item>Resto C</item>
+    </string-array>
+    <string name="order">Ordered Item</string>
+    <string name="ordertitl">Order Notification</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/tambahdata" />
+
+    <EditText
+        android:id="@+id/et_namarestoran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/namares"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_alamatrestoran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/alamatres"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_telprestoran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/notelpres"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_emailrestoran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/emailres"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>

@@ -1,0 +1,58 @@
+package tif.gaskeun.masodin.ui.main;
+
+import android.content.Context;
+import android.widget.Switch;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.StringRes;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+
+import tif.gaskeun.masodin.Controller.CustomrMenuListTab1;
+import tif.gaskeun.masodin.Controller.CustomrMenuListTab2;
+import tif.gaskeun.masodin.Controller.CustomrMenuListTab3;
+import tif.gaskeun.masodin.R;
+
+/**
+ * A [FragmentPagerAdapter] that returns a fragment corresponding to
+ * one of the sections/tabs/pages.
+ */
+public class SectionsPagerAdapter extends FragmentPagerAdapter {
+
+    @StringRes
+    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2, R.string.tab_text_3};
+    private final Context mContext;
+
+    public SectionsPagerAdapter(Context context, FragmentManager fm) {
+        super(fm);
+        mContext = context;
+    }
+
+    @Override
+    public Fragment getItem(int position) {
+        switch(position){
+            case 0:
+                return new CustomrMenuListTab1();
+            case 1:
+                return new CustomrMenuListTab2();
+            case 2:
+                return new CustomrMenuListTab3();
+        }
+        return null;
+//        return PlaceholderFragment.newInstance(position + 1);
+    }
+//
+    @Nullable
+    @Override
+    public CharSequence getPageTitle(int position) {
+        return mContext.getResources().getString(TAB_TITLES[position]);
+    }
+
+    @Override
+    public int getCount() {
+        // Show 2 total pages.
+        return 3;
+    }
+}

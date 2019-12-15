@@ -1,0 +1,175 @@
+{
+  "project_info": {
+    "project_number": "776004706996",
+    "firebase_url": "https://masodin-ezbgt.firebaseio.com",
+    "project_id": "masodin-ezbgt",
+    "storage_bucket": "masodin-ezbgt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776004706996:android:3041df58e6ebfbd30e6de1",
+        "android_client_info": {
+          "package_name": "com.restoran.masodin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776004706996-l0ffkv8pr1pi1r3fumd6krer0599tmir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.restoran.masodin",
+            "certificate_hash": "d05805a7540312964710ccbccce3c14943adfa01"
+          }
+        },
+        {
+          "client_id": "776004706996-1r124buock0kei5thf4lghcoh30tnooa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJJpK-u3PutwKABMGWtCJQw7RSLCIwDIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776004706996-1r124buock0kei5thf4lghcoh30tnooa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776004706996:android:68dec6c05be498920e6de1",
+        "android_client_info": {
+          "package_name": "me.dhyouji.restaurantselector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776004706996-qtamifc6u03vqisnbuoen0211kci42vv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.dhyouji.restaurantselector",
+            "certificate_hash": "1ff56ce5706255753bf1ca2217030730d2940fe6"
+          }
+        },
+        {
+          "client_id": "776004706996-1r124buock0kei5thf4lghcoh30tnooa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJJpK-u3PutwKABMGWtCJQw7RSLCIwDIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776004706996-1r124buock0kei5thf4lghcoh30tnooa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776004706996:android:5cd8af821fccdc4a0e6de1",
+        "android_client_info": {
+          "package_name": "tif.gaskeun.masodin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776004706996-lc1di7r5fgioegufp2dq9iad90j7rd6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tif.gaskeun.masodin",
+            "certificate_hash": "80124cdadc0d5bf59fc4c66e184c6df92340fb91"
+          }
+        },
+        {
+          "client_id": "776004706996-3gbar2iq5if4bhcp61t1rh7o2rkht0jg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tif.gaskeun.masodin",
+            "certificate_hash": "d05805a7540312964710ccbccce3c14943adfa01"
+          }
+        },
+        {
+          "client_id": "776004706996-jgudopqbar52vts1a7s299m1ja11jvfi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tif.gaskeun.masodin",
+            "certificate_hash": "1ff56ce5706255753bf1ca2217030730d2940fe6"
+          }
+        },
+        {
+          "client_id": "776004706996-1r124buock0kei5thf4lghcoh30tnooa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJJpK-u3PutwKABMGWtCJQw7RSLCIwDIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776004706996-1r124buock0kei5thf4lghcoh30tnooa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776004706996:android:72ea5ac69a4c67750e6de1",
+        "android_client_info": {
+          "package_name": "tif.gaskeun.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776004706996-ldcrojo84pg3gv265hrn9d899gp8e3p1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tif.gaskeun.myapplication",
+            "certificate_hash": "1ff56ce5706255753bf1ca2217030730d2940fe6"
+          }
+        },
+        {
+          "client_id": "776004706996-1r124buock0kei5thf4lghcoh30tnooa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJJpK-u3PutwKABMGWtCJQw7RSLCIwDIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776004706996-1r124buock0kei5thf4lghcoh30tnooa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

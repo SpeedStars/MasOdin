@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Tambah Makanan" />
+
+    <EditText
+        android:id="@+id/et_namamenu"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Nama Menu"
+        android:inputType="text" />
+
+    <Spinner
+        android:id="@+id/kategori"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:entries="@array/Kategori"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_desc"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Deskripsi"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_harga"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Harga"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>
